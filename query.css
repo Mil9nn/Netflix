@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+}
+
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reasons-to-join .flex {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .reasons-to-join .flex div {
+        width: 95%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 960px) {
+    .hero > :nth-child(1) {
+        font-size: 5rem;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reasons-to-join .flex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reasons-to-join .flex div {
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero > :nth-child(1) {
+        font-size: 4rem;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
